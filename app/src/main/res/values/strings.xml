@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Thế giới điện tử</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tip"><u>Cách lấy link ảnh</u></string>
+
+    <!--    Price-->
+    <string-array name="price">
+        <item>Tất cả mức giá</item>
+        <item>0-499 $</item>
+        <item>500-999 $</item>
+        <item>1000-1999 $</item>
+        <item>2000-4999 $</item>
+    </string-array>
+</resources>

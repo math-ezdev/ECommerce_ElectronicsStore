@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/coordinator_layout"
+    android:background="@drawable/bg_gradient_ui"
+    tools:context=".activity.SlashScreenActivity">
+
+    <ImageView
+        android:scaleType="centerInside"
+        android:layout_gravity="center"
+        android:src="@drawable/banner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

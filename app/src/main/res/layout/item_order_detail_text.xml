@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="8dp"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/product_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/app_name"
+        android:textStyle="bold" />
+
+    <TextView
+        android:textColor="@android:color/holo_blue_bright"
+        android:id="@+id/order_detail_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$ 999" />
+
+
+</LinearLayout>
